@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/send', [NotifacitionController::class, 'messageToMatter']);
+Route::post('/send', [NotifacitionController::class, 'messageToMatter']);
