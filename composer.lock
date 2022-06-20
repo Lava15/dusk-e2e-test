@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf08502088d4fe883e5032c0d93d0270",
+    "content-hash": "7e5c56fcf20eeb921512057d32858f3a",
     "packages": [
         {
             "name": "brick/math",
@@ -4830,6 +4830,92 @@
                 }
             ],
             "time": "2022-05-21T13:34:40+00:00"
+        },
+        {
+            "name": "thibaud-dauce/laravel-notifications-mattermost",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ThibaudDauce/laravel-notifications-mattermost.git",
+                "reference": "e1e95db89039778f14522484824cfc08b47b2cf2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ThibaudDauce/laravel-notifications-mattermost/zipball/e1e95db89039778f14522484824cfc08b47b2cf2",
+                "reference": "e1e95db89039778f14522484824cfc08b47b2cf2",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/notifications": "^5.3|^6.0|^7.0|^8.0|^9.0",
+                "php": ">=5.6.4",
+                "thibaud-dauce/mattermost-php": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ThibaudDauce\\Mattermost\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thibaud Dauce",
+                    "email": "thibaud@dauce.fr",
+                    "homepage": "https://www.formation-laravel.fr"
+                }
+            ],
+            "description": "Send Laravel Notifications via Mattermost",
+            "homepage": "https://github.com/thibaud-dauce/laravel-notifications-mattermost",
+            "support": {
+                "issues": "https://github.com/ThibaudDauce/laravel-notifications-mattermost/issues",
+                "source": "https://github.com/ThibaudDauce/laravel-notifications-mattermost/tree/1.4.0"
+            },
+            "time": "2022-02-09T09:00:17+00:00"
+        },
+        {
+            "name": "thibaud-dauce/mattermost-php",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ThibaudDauce/mattermost-php.git",
+                "reference": "0299c3dc6a2f7adacf663db6dcc93ad5a7b99bd2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ThibaudDauce/mattermost-php/zipball/0299c3dc6a2f7adacf663db6dcc93ad5a7b99bd2",
+                "reference": "0299c3dc6a2f7adacf663db6dcc93ad5a7b99bd2",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ThibaudDauce\\Mattermost\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thibaud Dauce",
+                    "email": "thibaud@dauce.fr",
+                    "homepage": "https://www.formations-laravel.fr"
+                }
+            ],
+            "description": "Mattermost PHP driver to send incoming webhooks",
+            "homepage": "https://github.com/thibaud-dauce/mattermost-php",
+            "support": {
+                "issues": "https://github.com/ThibaudDauce/mattermost-php/issues",
+                "source": "https://github.com/ThibaudDauce/mattermost-php/tree/1.3.0"
+            },
+            "time": "2020-11-26T13:26:31+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
