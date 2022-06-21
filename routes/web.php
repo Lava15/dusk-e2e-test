@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\NotifacitionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::post('/send', [NotifacitionController::class, 'messageToMatter']);
+Route::get('/send', [NotifacitionController::class, 'SendMessageToMatt']);
