@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SendMailController;
 use App\Http\Controllers\NotifacitionController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,3 +19,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/send', [NotifacitionController::class, 'SendMessageToMatt']);
+Route::get('/send-email', [SendMailController::class, 'SendMail']);
