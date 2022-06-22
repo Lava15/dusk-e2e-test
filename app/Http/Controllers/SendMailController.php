@@ -9,7 +9,7 @@ class SendMailController extends Controller
 {
     public function SendMail ()
     {
-        SendEmailJob::dispatch()->delay(1);
+        SendEmailJob::dispatch()->delay(now()->addMinutes(1));
         CheckDbExists::dispatch()->delay(now()->addMinutes(2));
         dd("Sent successfully");
     }
